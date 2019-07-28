@@ -1,0 +1,632 @@
+body {
+    background-color: #0C0515;
+}
+
+nav {
+    background-color: transparent;
+    box-shadow: none; 
+}
+
+/* Open Section */
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: none;
+    }
+    /* Text & Buttons */
+    #text {
+        z-index: 100;
+        position: absolute;
+        left: 38%;
+        top: 42%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+    }
+
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #468AF9;
+        font-size: 35pt;
+    }
+
+    .subtitle {
+        font-family: 'Rubik', sans-serif;
+        color: #ffffff;
+        font-size: 15pt;
+    }
+    .navbtn {
+        background-color: transparent;
+        border: 1.5px solid #6E5B86;
+        border-radius: 10px;
+        color: white;
+        padding: 10px;
+        width: 125px;
+        cursor: pointer;
+    }
+    .navbtn:hover {
+        border-color: #9382A9;
+    }
+    
+    .button {
+        background-color: transparent;
+        border: 1.5px solid #6E5B86;
+        border-radius: 10px;
+        color: white;
+        padding: 10px;
+        width: 175px;
+        height: 55px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        top: 67vh;
+        right: 23vw;
+    }
+    .button:hover {
+        background-color: #6E578A;
+    }
+
+    .login {
+        border-color: #3F7ADC;
+    }
+    .login:hover {
+        border-color: #89B3F9;
+    }
+
+    .buttonblue {
+        background-color: #468AF9;
+        border-color: #468AF9;
+    }
+    .buttonblue:hover {
+        background-color: transparent;
+    }
+
+    .right {
+        margin-right: 15%;
+        position: relative;
+        top: 4vh;
+    }
+    .right a:hover {
+        color: #468AF9;
+    }
+    .brand-logo {
+        margin-left: 15%;
+    }
+
+    .rectangle {
+        height: 5px;
+        width: 158px;
+        background-color: #468AF9;
+        margin-left: 45%;
+    }
+
+    .lorem {
+        color: white;
+        text-align: left;
+        position: relative;
+        right: 11vw;
+    }
+
+
+/* Tools Section */
+    .low {
+        font-size: 28pt;
+        font-weight: 500;
+    }
+
+    .box {
+        position: relative;
+        color: white;
+        float: left;
+        left: 12vw;
+        top: 2vh;
+        padding-right: 40px;
+    }
+    .box h6 {
+        cursor: pointer;
+    }
+    .box img {
+        padding-top: 25px;
+    }
+    .box hr {
+        width: 70%;
+        border: 1px solid #956EC8;
+        background-color: #956EC8;
+        display: none;
+    }
+    .box h6:hover + hr {
+        display: block;
+    }
+
+    .box h6:hover + img {
+        content:url("https://svgur.com/i/EJX.svg");
+        height: 29px;
+        width: 49px;
+    }
+
+
+    .platbox {
+        border: 2px solid #0C011A;
+        background-color: #0C011A;
+        width: 19%;
+        height: 520px;
+        position: absolute;
+        left: 24vw;
+        color: white;
+        margin-bottom: 60px;
+        margin-top: -540px;
+        display: none;
+    }
+    .platbox button {
+        top: 59vh;
+        right: 3vw;
+        position: absolute;
+    }
+    .platbox h5 {
+        padding-top: 6px;
+        padding-bottom: 72px;
+
+    }
+    .platbox p {
+        font-size: 13pt;
+        position: absolute;
+    }
+    .seccircle {
+        display: block;
+        margin-bottom: 280px;
+    }
+    .circle {
+        display: none;
+    }
+
+    .crypto {
+        color: white;
+    }
+    .forextrad {
+        color: white;
+    }
+    .yel:hover + .platbox {
+        display: block;
+    }
+
+    @keyframes shadow-pulse {
+        0% {
+        box-shadow: 0 0 0 0px #00000033;
+    }
+        100% {
+        box-shadow: 0 0 0 35px #00000000;
+    }
+    }
+
+    @keyframes shadow-pulse-big {
+        0% {
+        box-shadow: 0 0 0 0px #0000001a;
+    }
+        100% {
+        box-shadow: 0 0 0 70px #00000000;
+    }
+    }
+
+    .pulse {
+        width: 40px;
+        height: 40px;
+        background: #B672D4;
+        border-radius: 50%;
+        position: relative;
+        animation: shadow-pulse 1s infinite;
+        z-index: 100;
+    }
+    .pulsetwo {
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -10px 0px 0px -10px;
+        height: 20px;
+        width: 20px;
+    }
+    .blue {
+        background: #468AF9;
+    }
+    .yel {
+        background: #DEC054;
+        margin-left: 45%;
+        right: 12vw;
+        bottom: 58vh;
+    }
+    .for {
+        position: relative;
+        left: 48vw;
+    }
+    .crypto {
+        position: relative;
+        bottom: 30vh;
+        left: 15vw;
+    }
+    .crypto p {
+        position: relative;
+        left: 47rem;
+    }
+    .forextrad {
+        position: relative;
+        bottom: 74vh;
+        left: 33vw;
+    }
+    .forextrad p {
+        position: relative;
+        left: 47rem;
+        white-space: nowrap;
+    }
+    .hideonmob {
+        display: block;
+    }
+    .about {
+        margin-left: 20%;
+    }
+
+    /* About Us */
+    #phone {
+        position: relative;
+        height: 600px;
+        width: 600px;
+        margin-top: -30%;
+        left: 27vw;
+    }
+    #wire {
+        display: block;
+        position: absolute;
+        bottom: -324vh;
+        right: 11vw;
+    }
+    .sec {
+        text-align: left;
+        font-size: 28pt;
+        font-weight: 800;
+        margin-left: 20%;
+    }
+    .aboutp {
+        color: white;
+        text-align: left;
+        margin-left: 20%;
+    }
+    .thirdback {
+        margin-bottom: 280px;
+    }
+
+    /* Products */
+    .prodtext {
+        color: white;
+        text-align: center;
+        font-size: 15pt;
+        margin-left: 0%;
+    }
+    .prodrow {
+        display: none;
+    }
+    .proddesktop {
+        display: block;
+        height: 100vh;
+    }
+    #backthree {
+        width: 100%;
+        position: relative;
+        bottom: 94vh;
+    }
+    #theprods {
+        position: relative;
+        top: 12vh;
+    }
+
+    /* Contact Us */    
+    .inputform {
+        width: 65% !important;
+        margin-right: 20px !important;
+        padding: 12px !important;
+        border: 1px solid #36244D !important;
+        border-radius: 10px !important;
+        box-sizing: border-box !important;
+        margin-top: 6px !important;
+        margin-bottom: 16px !important;
+        color: white;
+        display: inline-block;
+    }
+    .inputform:focus {
+        outline: none;
+    }
+    .contactbtn {
+        width: 220px;
+        cursor: pointer;
+        top: 0vh;
+        right: 0vw;
+        background-color: #468AF9;
+        height: 55px;
+        border: 1.5px solid #468AF9;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    .area {
+        resize: none;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #130A1F;
+        padding-top: 250px;
+        position: relative;
+    }
+    .adju {
+        position: relative;
+        top: -33vh;
+        right: 2vw;
+        float: right;
+        margin-right: 0;
+    }
+    .footerlinks:hover ul a {
+        color: #468AF9;
+    }
+    nav ul a:hover {
+        background-color: transparent;
+    }
+    .copyright {
+        color: white;
+        position: relative;
+        bottom: 16vh;
+    }
+    .warning {
+        color: white;
+        position: relative;
+        bottom: 16vh;
+    }
+    #desktop {
+        display: block
+    }
+    #mobily {
+        display: none;
+    }
+
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        left: 15%;
+    }
+
+    /* Open Section */
+    .rectangle {
+        height: 5px;
+        width: 158px;
+        background-color: #468AF9;
+        margin-left: 30%;
+    }
+
+    #text {
+        left: 50%;
+        top: 19%;
+        text-align: center; 
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .title {
+        font-size: 27pt;
+    }
+
+    .button {
+        background-color: transparent;
+        border: 2px solid #6E5B86;
+        border-radius: 10px;
+        color: white;
+        padding: 10px;
+        width: 150px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        top: 33vh;
+        right: 0vw;
+    }
+    .buttonblue {
+        background-color: #468AF9;
+        border-color: #468AF9;
+    }
+    .right {
+        margin-right: 0;
+        top: 0;
+    }
+    .lorem {
+        display: none;
+    }
+
+    /* Tools Section */
+    .low {
+        font-size: 19pt;
+        font-weight: 500;
+    }
+    .box {
+        border: 2px solid #375C98;
+        width: 65%;
+        height: 180px;
+        position: relative;
+        left: 18vw;
+        color: white;
+        margin-bottom: 30px;
+        z-index: 100;
+        float: none;
+        top: 0;
+        padding-right: 0;
+    }
+    .box img {
+        padding-top: 25px;
+    }
+
+    .platbox {
+        border: 2px solid #0C011A;
+        background-color: #0C011A;
+        width: 85%;
+        height: 450px;
+        position: relative;
+        left: 8vw;
+        color: white;
+        margin-bottom: 60px;
+        margin-top: 80px;
+        display: block;
+    }
+    .platbox button {
+        top: 55vh;
+        right: 20vw;
+    }
+    .platbox h5 {
+        padding-top: 6px;
+        padding-bottom: 50px;
+    }
+    .platbox p {
+        font-size: 13pt;
+    }
+
+    /* About Us */
+    .circle {
+        z-index: 100;
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .seccircle {
+        display: none;
+    }
+    .thirdback {
+        margin-bottom: 45px;
+    }
+    .secbackground {
+        position: absolute;
+        max-width: none;
+        width: 100%;
+        left: 0;
+        z-index: -1;
+    }
+    .hideonmob {
+        display: none;
+    }
+    .yel {
+        top: 28vh;
+        bottom: 0;
+        right: 0;
+    }
+    .aboutp {
+        color: white;
+        font-size: 13pt;
+        width: 90%;
+        position: relative;
+        left: -12vw;
+    }
+    #wire {
+        display: none;
+    }
+    #phone {
+        position: unset;
+        height: 400px;
+        width: 400px;
+        margin-top: -37%;
+    }
+
+    /* Products */
+    .prodrow {
+        display: block;
+        color: white;
+        font-size: 13pt;
+        float: left;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+    .prod {
+        position: relative;
+        top: 64vh;
+        margin-bottom: 30pc;
+    }
+    .prodtext {
+        color: white;
+        font-size: 13pt;
+        width: 90%;
+        position: relative;
+        left: 5vw;
+    }
+    .proddesktop {
+        display: none;
+    }
+
+    /* Contact Us */
+    input {
+        color: white;
+    }
+    .inputform {
+        width: 85% !important;
+        padding: 12px !important;
+        border: 1px solid #36244D !important;
+        border-radius: 10px !important;
+        box-sizing: border-box !important;
+        margin-top: 6px !important;
+        margin-bottom: 16px !important;
+    }
+    .contactbtn {
+        width: 220px;
+        cursor: pointer;
+        top: 0vh;
+        right: 0vw;
+        background-color: #468AF9;
+        height: 55px;
+        border: 1.5px solid #468AF9;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    /* Footer */
+    #desktop {
+        display: none;
+    }
+    #mobily {
+        display: block;
+        position: relative;
+        left: 11vw;
+        bottom: 55vh;
+    }
+    .adju span {
+        display: none;
+    }
+    .adju li {
+        float: left;
+        clear: left;
+    }
+    .adju {
+        position: relative;
+        right: 19vw;
+        margin-top: -197%;
+    }
+    #mobilogo {
+        left: 19%;
+        margin-left: 3%;
+        position: relative;
+        bottom: 118vh !important;
+    }
+    footer {
+        padding-top: 800px;
+    }
+    .copyright {
+        color: white;
+        position: relative;
+        bottom: 52vh;
+        left: 3vw;
+    }
+    .warning {
+        color: white;
+        position: relative;
+        bottom: 50vh;
+        left: 3vw;
+    }
+}
